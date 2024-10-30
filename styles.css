@@ -1,0 +1,50 @@
+
+.diagonal-gradient {
+    background: linear-gradient(161deg, #4a2d83 50%, #dad3e9 50%);
+}
+.services-heading {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-right: 50px;
+    margin-top: -28px;
+    margin-bottom: 28px;
+    margin-left: 100px;
+    font-family: sans-serif;
+}
+
+.services-heading h2 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+@keyframes rotate360 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.hover\:rotate-360:hover {
+    animation: rotate360 0.5s ease-in-out;
+}
+.mar-top{
+    margin-top: -50px;
+}
+.text-blue-600 {
+    --tw-text-opacity: 1;
+    color: rgb(17 44 101) !important;
+}
+.border-blue-800 {
+    --tw-border-opacity: 1;
+    border-color: rgb(74 45 130) !important;
+}
+.pa-dd {
+    padding: -0.5rem !important;
+}
